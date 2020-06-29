@@ -1,0 +1,7 @@
+﻿  QueueWithTwoStacks.cpp
+C:\Users\1\source\repos\09_QueueWithTwoStacks\09_QueueWithTwoStacks\QueueWithTwoStacks.cpp(107,17): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\1\source\repos\09_QueueWithTwoStacks\09_QueueWithTwoStacks\QueueWithTwoStacks.cpp(107,17): warning C4267:         with
+C:\Users\1\source\repos\09_QueueWithTwoStacks\09_QueueWithTwoStacks\QueueWithTwoStacks.cpp(107,17): warning C4267:         [
+C:\Users\1\source\repos\09_QueueWithTwoStacks\09_QueueWithTwoStacks\QueueWithTwoStacks.cpp(107,17): warning C4267:             T=int
+C:\Users\1\source\repos\09_QueueWithTwoStacks\09_QueueWithTwoStacks\QueueWithTwoStacks.cpp(107,17): warning C4267:         ]
+  09_QueueWithTwoStacks.vcxproj -> C:\Users\1\source\repos\09_QueueWithTwoStacks\x64\Debug\09_QueueWithTwoStacks.exe
