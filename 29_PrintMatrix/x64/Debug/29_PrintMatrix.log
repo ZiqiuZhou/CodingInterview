@@ -1,0 +1,9 @@
+﻿  PrintMatrix.cpp
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(18,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(60): message : see reference to function template instantiation 'void printMatrix<int>(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &)' being compiled
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(60): message :         with
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(60): message :         [
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(60): message :             _Ty=int
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(60): message :         ]
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\29_PrintMatrix\PrintMatrix.cpp(19,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  29_PrintMatrix.vcxproj -> D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\29_PrintMatrix\29_PrintMatrix\x64\Debug\29_PrintMatrix.exe
