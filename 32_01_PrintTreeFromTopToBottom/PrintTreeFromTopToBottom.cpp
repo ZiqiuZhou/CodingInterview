@@ -37,8 +37,43 @@ void printTreeFromTopToBottom(TreeNode<Object>* root)
 			queueTreeNode.push(poped->leftChild);
 		if (poped->rightChild != nullptr)
 			queueTreeNode.push(poped->rightChild);
-		//delete poped;
-		//poped = nullptr;
+	}
+}
+
+//从上到下打印树，但是每层要分行
+template<typename Object>
+void printTreeFromTopToBottomPerLine(TreeNode<Object>* root)
+{
+	if (root == nullptr)
+		throw new exception("Invalid Input!");
+	queue<TreeNode<Object>* > queueTreeNode;
+	queueTreeNode.push(root);
+	int nextLevel = 0; // 下一层需要打印的节点数量
+	int toBePrinted = 1; //本层还有未打印的节点数量
+	while (!queueTreeNode.empty())
+	{
+		TreeNode<Object>* poped = new TreeNode<Object>;
+		poped = queueTreeNode.front();
+		cout << poped->element << " ";
+		toBePrinted--;
+		queueTreeNode.pop();
+		if (poped->leftChild != nullptr)
+		{
+			queueTreeNode.push(poped->leftChild);
+			nextLevel++;
+		}
+		if (poped->rightChild != nullptr)
+		{
+			queueTreeNode.push(poped->rightChild);
+			nextLevel++;
+		}
+
+		if (toBePrinted == 0)
+		{
+			cout << endl;
+			toBePrinted = nextLevel;
+			nextLevel = 0;
+		}
 	}
 }
 
@@ -54,6 +89,7 @@ int main()
 	tree1->rightChild->rightChild = new TreeNode<int>(arr[6]);
 	tree1->leftChild->rightChild->leftChild = new TreeNode<int>(arr[7]);
 	printTreeFromTopToBottom(tree1);
-	delete tree1;
-	tree1 = nullptr;
+	cout << endl;
+	printTreeFromTopToBottomPerLine(tree1);
+	cout << endl;
 }
