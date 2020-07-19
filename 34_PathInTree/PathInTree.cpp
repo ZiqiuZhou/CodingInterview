@@ -56,7 +56,7 @@ bool isSumCore(TreeNode<Object>* pRoot, Object target, Object currentSum, vector
 		return isSumCore(pRoot->leftChild, target, currentSum + pRoot->leftChild->element, storedLeaf);
 	else
 	{
-		return isSumCore(pRoot->leftChild, target, currentSum + pRoot->leftChild->element, storedLeaf) ||
+		return isSumCore(pRoot->leftChild, target, currentSum + pRoot->leftChild->element, storedLeaf) | //使用&& 和||会产生逻辑短路
 			isSumCore(pRoot->rightChild, target, currentSum + pRoot->rightChild->element, storedLeaf);
 	}
 }
@@ -83,7 +83,7 @@ void reconstructPath(TreeNode<Object>* pRoot, Object target)
 
 int main()
 {
-	int arr[] = { 2, 3, 1, 7, 3, 13, 0, 8 };
+	int arr[] = { 2, 3, 9, 7, 3, 5, 0, 8 };
 	TreeNode<int>* tree1 = new TreeNode<int>(arr[0]);
 	tree1->leftChild = new TreeNode<int>(arr[1]);
 	tree1->leftChild->parent = tree1;

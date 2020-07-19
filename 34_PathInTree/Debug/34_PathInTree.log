@@ -1,8 +1,8 @@
 ﻿  PathInTree.cpp
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(70,21): warning C4018: '<': signed/unsigned mismatch
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(102): message : see reference to function template instantiation 'void reconstructPath<int>(TreeNode<int> *,Object)' being compiled
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(102): message :         with
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(102): message :         [
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(102): message :             Object=int
-D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(102): message :         ]
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(71,21): warning C4018: '<': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(103): message : see reference to function template instantiation 'void reconstructPath<int>(TreeNode<int> *,Object)' being compiled
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(103): message :         with
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(103): message :         [
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(103): message :             Object=int
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\34_PathInTree\PathInTree.cpp(103): message :         ]
   34_PathInTree.vcxproj -> D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\34_PathInTree\34_PathInTree\Debug\34_PathInTree.exe
