@@ -1,0 +1,8 @@
+﻿  KLeastNumbers.cpp
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(12,39): warning C4018: '>': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(51,39): warning C4018: '>': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(54,20): warning C4018: '<': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(69,39): warning C4018: '>': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\40_KLeastNumbers\KLeastNumbers.cpp(79,20): warning C4018: '<': signed/unsigned mismatch
+  40_KLeastNumbers.vcxproj -> D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\40_KLeastNumbers\40_KLeastNumbers\Debug\40_KLeastNumbers.exe
