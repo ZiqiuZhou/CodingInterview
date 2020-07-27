@@ -1,0 +1,4 @@
+﻿  MaxValueOfGifts.cpp
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\47_MaxValueOfGifts\MaxValueOfGifts\MaxValueOfGifts\MaxValueOfGifts.cpp(58,10): warning C4018: '>=': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\47_MaxValueOfGifts\MaxValueOfGifts\MaxValueOfGifts\MaxValueOfGifts.cpp(58,34): warning C4018: '>=': signed/unsigned mismatch
+  MaxValueOfGifts.vcxproj -> D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\47_MaxValueOfGifts\MaxValueOfGifts\Debug\MaxValueOfGifts.exe
