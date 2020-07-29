@@ -26,7 +26,7 @@ int NumberInSortedArray(vector<int>& arr, int target)
 		else if (target > arr[middle])
 			left = middle + 1;
 		else
-			right = middle;
+			right = middle - 1;
 	}
 	if (indexOfTarget == -1) // 数组中没找到目标数
 		return -1;
