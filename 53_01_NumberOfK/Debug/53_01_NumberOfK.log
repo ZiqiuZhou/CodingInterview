@@ -1,0 +1,5 @@
+﻿  53_01_NumberOfK.cpp
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK.cpp(40,30): warning C4018: '>=': signed/unsigned mismatch
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK.cpp(88): warning C4715: 'findLeftBoundary': not all control paths return a value
+D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK\53_01_NumberOfK.cpp(69): warning C4715: 'findRightBoundary': not all control paths return a value
+  53_01_NumberOfK.vcxproj -> D:\教材\刷题\剑指offer_第二版\CodingInterviewChinese_original\53_01_NumberOfK\53_01_NumberOfK\Debug\53_01_NumberOfK.exe
